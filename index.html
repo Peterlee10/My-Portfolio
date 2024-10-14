@@ -1,0 +1,277 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peter Portfolio Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Lawrence Imana</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Peter Oluwatomisin Ogundipe</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section-pic-container">
+            <img src="images/Peter's White Passport.jpg" alt="" width="400px" class="profile-img">
+        </div>
+        <div class="section-text">
+            <p class="section-text-p1">Hello, I'm</p>
+            <h1 class="title">Peter Ogundipe</h1>
+            <p class="section-text-p2">Frontend Developer/Tester</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./images/Peter Ogundipe C.V. pdf.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Me</button>
+            </div>
+            <div id="socials-container">
+                <img src="images/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/el-iluminado'">
+                <img src="images/github.png" alt="My GitHub Profile" class="icon" onclick="location.href='https://www.github.com/EL-ILUMINADO'">
+            </div>
+        </div>
+    </section>
+    <section id="about"><br>
+        <p class="section-text-p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section-pic-container">
+                <img src="images/peter new (1).jpg" alt="Profile Picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="images/experience.png" alt="Experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>6+ months <br> Frontend Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="images/education.png" alt="Education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>Bachelor's Degree(B.Sc)</p>
+                        <p>Science Laboratory Technology (Biotechnology)</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>I am an Enthusiastic, passionate and detailed front-end developer with a strong understanding of HTML, CSS and Javascript, alongside Software Testing, for creating aesthetically pleasing Apps. I am keen on building responsive and user-friendly web applications. Also very eager to contribute to a dynamic working development team, and grow my skills in a professional settings.  
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section-text-p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-subtitle">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>SASS</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Javascript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>React</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Bootstrap</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-subtitle">Graphics Design</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Adobe Photoshop</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Adobe Illustrator</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Canva</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Figma</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+        <p class="section-text-p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="images/Screenshot 2024-10-14 105517.png" alt="My Ecommerce Website Project" class="project-img">
+                </div>
+                <h2 class="experience-subtitle project-title">Project 1</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Peterlee10/Architecture-Website'">GitHub</button>
+                    <button class="btn btn-color-2 project-btn"><a href="https://ecombylio.vercel.app" class="live-demo-btn">Live Demo</a></button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="images/Screenshot 2024-10-14 110128.png" alt="My Streaming Website Project" class="project-img">
+                </div>
+                <h2 class="experience-subtitle project-title">Project 2</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Peterlee10/TicTacToe'">GitHub</button>
+                    <button class="btn btn-color-2 project-btn"><a href="https://lioflix.vercel.app" class="live-demo-btn">Live Demo</a></button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="images/Screenshot 2024-10-14 110531.png" alt="A portfolio Website Project" class="project-img">
+                </div>
+                <h2 class="experience-subtitle project-title">Project 3</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="https://github.com/Peterlee10/Tip-Calculator-App'">GitHub</button>
+                    <button class="btn btn-color-2 project-btn"><a href="https://lioportfolioweb.vercel.app" class="live-demo-btn">Live Demo</a></button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="images/Screenshot 2024-10-14 105010.png" alt="My Weather application Project" class="project-img">
+                </div>
+                <h2 class="experience-subtitle project-title">Project 4</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Peterlee10/Burger'">GitHub</button>
+                    <button class="btn btn-color-2 project-btn"><a href="https://weatherbylio.vercel.app" class="live-demo-btn">Live Demo</a></button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="images/Screenshot 2024-10-14 104537.png" alt="My calculator Project" class="project-img">
+                </div>
+                <h2 class="experience-subtitle project-title">Project 5</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Peterlee10/amazon-clone'">GitHub</button>
+                    <button class="btn btn-color-2 project-btn"><a href="https://minicalcapp.vercel.app" class="live-demo-btn">Live Demo</a></button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="images/Screenshot 2024-10-14 103014.png" alt="My Notes app Project" class="project-img">
+                </div>
+                <h2 class="experience-subtitle project-title">Project 6</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Peterlee10/Digital-Clock-in-Java-Script'">GitHub</button>
+                    <button class="btn btn-color-2 project-btn"><a href="https://notespurple.vercel.app" class="live-demo-btn">Live Demo</a></button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <img src="images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#contact'">
+    </section>
+    <section id="contact">
+        <p class="section-text-p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="images/email.png" alt="Email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:lawrenceimana108@gmail.com">My Email</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="images/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/peter-oluwatomisin-ogundipe-19319a189/">My LinkedIn Profile</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &copy; 2024 Peter Ogundipe. All rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
